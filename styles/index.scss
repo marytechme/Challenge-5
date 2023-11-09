@@ -6,15 +6,39 @@
         width: 100%;
         main{
             border: 2px solid black;
-            width: 40%;
+            width: 100%;
+            padding: 100px;
         }
         section{
             border: 2px solid black;
-            width: 30%;
+            width: 100%;
+            padding: 90px;
         }
         footer{
             border: 2px solid black;
-            width: 30%;
+            width: 100%;
+            padding: 48px;
+            h1{
+                text-align: center;
+            }
+            .p{
+                background-color: gainsboro;
+                width: 30%;
+                margin-left: 35%;
+                margin-top: 20px;
+                p{
+                    text-align: center;
+                }
+            }
+                svg{
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                width: 50px;
+                gap: 2px;
+                // margin-left: 45%;
+                margin-top: 1px;
+            }
         }
      }
 }
