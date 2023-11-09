@@ -5,40 +5,75 @@
      body{
         width: 100%;
         main{
-            border: 2px solid black;
-            width: 100%;
-            padding: 100px;
+            display: none;
         }
         section{
-            border: 2px solid black;
-            width: 100%;
-            padding: 90px;
+            display: none;
         }
         footer{
-            border: 2px solid black;
+            border: none;
+            background-color: rgb(44, 44, 44);
             width: 100%;
-            padding: 48px;
-            h1{
+            height: 260px;
+            padding: 20px;
+            margin-top: 31%;
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .p{
+            width: 30%;
+            // height: 10px;
+            margin: 0 auto;
+            p{
                 text-align: center;
+                padding-top: 10px;
+                color: white;
             }
-            .p{
-                background-color: gainsboro;
-                width: 30%;
-                margin-left: 35%;
-                margin-top: 20px;
-                p{
-                    text-align: center;
+            .svg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg{
+                    width: 20px;
+                    height: 30px;
+                    margin: 0 auto;
                 }
             }
-                svg{
-                // display: flex;
-                // justify-content: center;
-                // align-items: center;
-                width: 50px;
-                gap: 2px;
-                // margin-left: 45%;
-                margin-top: 1px;
+        }
+        .nav-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            .footer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                p{
+                    color: white;
+                }
+                a{
+                    text-decoration: none;
+                    color: cyan;
+                }
+            }
+            .menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                li{
+                   list-style: none;
+                   a{
+                    text-decoration: none;
+                    color: white;
+                   }
+                }
             }
         }
      }
+    }
 }
